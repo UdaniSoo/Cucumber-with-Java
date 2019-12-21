@@ -98,7 +98,10 @@ JUnit is the testing framework which help us to connect above dot files and run 
 
 Cucumber project creation: Cucumber is structure sensitive and need to create packges and classes according to the defined structure.  
 
-1. Create a package inside src/test.(All feature files will go inside this package) Eg: features  
-2. Create a File inside the feature package.  
+1. Create a package under src/test.(All feature files will go inside this package) Eg: features  
+2. Create a File under the feature package.  
+3. Create a package called stepDefinitions under srs/test
+4. Create a class called stepDeninition under stepDefinitions package 
+5. 
 
 
