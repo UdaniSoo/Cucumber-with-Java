@@ -71,5 +71,14 @@ public class stepDefinition {
 		System.out.println(obj.get(0).get(4));
 		
 	}
+	
+	//Parameterization
+	@When("^User login into the application with User(.+) and Password(.+)$")
+	public void user_login_into_the_application_with_User_and_Password(String username, String password) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		System.out.println(username);
+		System.out.println(password);
+
+	}
 
 }
