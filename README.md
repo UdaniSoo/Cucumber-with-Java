@@ -141,7 +141,13 @@ Login using username and password.
 
 ## Chaper 5  
 ### Data driven testing with cucumber  
-
+#### Importance of dataTable for Datadriving tests  
+Data tables can use when there is multiple values as input.  
+Use || for mention data. 
+Get the data in data table to a list and use it.  
+E.g:
+		List<List<String>> obj=data.raw();
+    obj.get(0).get(0);
 
 
 
