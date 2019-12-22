@@ -101,7 +101,38 @@ Cucumber project creation: Cucumber is structure sensitive and need to create pa
 1. Create a package under src/test.(All feature files will go inside this package) Eg: features  
 2. Create a File under the feature package.  
 3. Create a package called stepDefinitions under srs/test
-4. Create a class called stepDeninition under stepDefinitions package 
-5. 
+4. Create a class called stepDeninition under stepDefinitions package.
+5. Stepdefinition file should match with tag name and description.  
+   -Use the same description in keywords section when writing a code in step definition file. Then it will identify the tagging proprly.  
+   E.g:  
+   Step in feature: Given User is on netbanking landing page  
+   Code in Step definition file:  
+   @Given("^User is on netbanking landing page$")  
+	  public void user_is_on_netbanking_landing_page()  
+	  {  
+		//code to navigate to net banking landing page  
+	  }  
+6. You can navigates to the relevent code section for test step by press ctrl key and click on the test step in the feature file.You can check the tagging is correct or not by this way.  
+7. Basic code structure for step definition file can generate using "Tidy gherkin" plugin.  
+  - Add tidy ghekin as a chrome plugin 
+  - Open tidy and place the testcases inside the app and get the code for step definition file.  
+8. Create a package called cucumberOptions.  
+9. Create TestRunner class under cucumberOptions package.  
+  - Pass parameters where exactly feature file and stepdefinition files are located.  
+  - When you run test runner, it will search for a feature file you provided in test runner and trigger that feature file execution.  
+  When feature file tring to identify it's mapping step definition file, it will find the location of the step definition file mentioned in testrunner. Then the test runner will find the step definition file and it ill map and execute the code.  
+  How to define feature file and stepdefinition files location in  test  runner class?  
+  - Cucmber options is the annotation which takes input of feature file location and step definition location.  
+  If you want to run all the feature files inside the feature packege, you can give the path to package.  
+  If you want to run one feature file, you can give path to that feature file.  
+  @RunWith(Cucumber.class)
+@CucumberOptions(
+		features= "/Users/Udani/eclipse-workspace/AutomationCucumber/src/test/java/features",
+		glue= {"stepDefinitions"} This is package name.
+
+
+#### 
+
+Cucumeber gives you the flexibility of intergarating and provides you a robust automation framework. Job of cucumber is to provide a framework, it will not automate anything. it will give you a neat framework which every company needs.
 
 
