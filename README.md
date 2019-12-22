@@ -128,11 +128,16 @@ Cucumber project creation: Cucumber is structure sensitive and need to create pa
   @RunWith(Cucumber.class)
 @CucumberOptions(
 		features= "/Users/Udani/eclipse-workspace/AutomationCucumber/src/test/java/features",
-		glue= {"stepDefinitions"} This is package name.
+		glue= {"stepDefinitions"} This is package name.  
 
+Cucumeber gives you the flexibility of intergarating and provides you a robust automation framework. Job of cucumber is to provide a framework, it will not automate anything. it will give you a neat framework which every company needs.  
 
-#### 
+#### Regular expression  
+You can use Regular expression for write code which has same implementation but different data.  
+example:
+Login using username and password.  
+1. Login using jin and 1234 (Valid user)
+2. Login using Jhone and 12345 ()
 
-Cucumeber gives you the flexibility of intergarating and provides you a robust automation framework. Job of cucumber is to provide a framework, it will not automate anything. it will give you a neat framework which every company needs.
 
 
