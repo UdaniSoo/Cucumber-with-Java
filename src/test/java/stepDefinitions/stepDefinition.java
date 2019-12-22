@@ -1,5 +1,8 @@
 package stepDefinitions;
 
+import java.util.List;
+
+import cucumber.api.DataTable;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -52,8 +55,21 @@ public class stepDefinition {
 	public void cards_are_displayed(String arg1) throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 		
-		System.out.println("Cards are displayed: " +arg1);
+		System.out.println("Cards are displayed: " +arg1); 
 	
+	}
+	
+	//Data table
+	@When("^User sign up with following details$")
+	public void user_sign_up_with_following_details(DataTable data) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		List<List<String>> obj=data.raw();
+		System.out.println(obj.get(0).get(0));
+		System.out.println(obj.get(0).get(1));
+		System.out.println(obj.get(0).get(2));
+		System.out.println(obj.get(0).get(3));
+		System.out.println(obj.get(0).get(4));
+		
 	}
 
 }
