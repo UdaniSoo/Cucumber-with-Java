@@ -1,5 +1,10 @@
 Feature: Application Login
 
+Background:
+Given Validate the browser
+When Browser is triggered
+Then Check if the browser is displayed
+
 @SanityTest
 Scenario: Home page default login
 Given User is on netbanking landing page

@@ -9,6 +9,31 @@ import cucumber.api.java.en.When;
 
 public class stepDefinition {
 	
+	//Prerequisites start
+	@Given("^Validate the browser$")
+	public void validate_the_browser() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		
+		System.out.println("Validate the browser");
+
+	}
+
+	@When("^Browser is triggered$")
+	public void browser_is_triggered() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		
+		System.out.println("Browser is triggered");
+
+	}
+
+	@Then("^Check if the browser is displayed$")
+	public void check_if_the_browser_is_displayed() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		
+		System.out.println("Browser started");
+	}
+	  //Prerequisites end
+	    
 	@Given("^User is on netbanking landing page$")
 	public void user_is_on_netbanking_landing_page() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
