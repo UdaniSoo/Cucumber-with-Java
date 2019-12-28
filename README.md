@@ -206,3 +206,27 @@ Simply it can validate  your script file.
 The output you are seen in console will be neat and properly formatted if you use this attribute. This will remove all unwanted things in your console.  
 3. strict
 If you dont want to pass the test if there are any missing implementation and if you are very strict.
+
+#### How we have addressed common problems with cucumber features  
+
+Questions and Answers  
+1. How to write and maintain reusable code across the framework?  
+A: with the help of step definition and its regular expressions you can resue the code.  
+2. How to data drive the data in to testcase?  
+A: Data table is helps to drive the data.  
+3. How to parameterize the testcases with multiple set of data?  
+A: Scenario outline with example keyword.  
+4. How to archive 100% test coverage through framework?  
+A: Each scenario is attached to stepdefinition otherwise it will ask yu to implement and show it in the console.  
+5. How to run all the test on single click?  
+A:With the help of test runner you can run all the testcases under feature folder since we are giving the location of the feature folder in the testrunner.  
+6. How to control the execution of test to execute and run only few based on needs?  
+A: Using the tags in cucumber and mentioned the same in the testrunner.  
+7. How to implement logic to seperate test code from common post and pre requesites of the test?  
+A: Use hooks and tags: if the post and pre not common for scenarios.  
+Use background if the pre and post conditions are common throghout the feature file.  
+8. How to generate HTML reports and junit reports?  
+A: Plugin in testrunner  
+9.  
+
+## Mavan and Jerkins
