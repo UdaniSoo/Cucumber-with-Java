@@ -28,9 +28,9 @@ Then Home page is populated
 And Cards are displayed "True"
 
 Examples:
-|Username |Password |
-|User1    |Password1|
-|User2    |Password2|
-|User3    |Password3|
-|User4    |Password4|
+|Username |Password|
+|User1 |Password1|
+|User2 |Password2|
+|User3 |Password3|
+|User4 |Password4|
 
