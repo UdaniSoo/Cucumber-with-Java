@@ -149,5 +149,16 @@ E.g:
 		List<List<String>> obj=data.raw();
     obj.get(0).get(0);
 
+#### Parameterizing test runs with Example keyword  
+If you want to repeat a test case multiple times with different datasets we call it parameterization.  
+Use "Senario Outline" keyword when write scenario for parameterization.  
+Use "Examples:" keyword for define the dataset.  
 
+#### Tagging feature to control testcases  
 
+We can add tags(@RegTest,@SmokeTest) to scenarios and run the relevent set of testcases accordingly.  
+Add whatever set you want to run in the testrunner file after the glue section.  
+features= "/Users/Udani/eclipse-workspace/AutomationCucumber/src/test/java/features",
+		glue= {"stepDefinitions", tags="@SmokeTest"}  
+
+Contralling the testcases can be done by using the tags. There is no need of removing them from the code. You can tag testcases you need to run and execute the code.
