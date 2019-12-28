@@ -161,4 +161,30 @@ Add whatever set you want to run in the testrunner file after the glue section.
 features= "/Users/Udani/eclipse-workspace/AutomationCucumber/src/test/java/features",
 		glue= {"stepDefinitions", tags="@SmokeTest"}  
 
-Contralling the testcases can be done by using the tags. There is no need of removing them from the code. You can tag testcases you need to run and execute the code.
+Contralling the testcases can be done by using the tags. There is no need of removing them from the code. You can tag testcases you need to run and execute the code.  
+
+#### Importance of Background keyword in Cucumber scenarios  
+There will be some common step(Prerequisite) which are common accross the testcase suite.  
+we can write those steps separately rather than writing it everywhere.  
+Keyword for define prerequisites,  
+Background:
+Given  
+When  
+Then  
+
+This Background keyword is specific to one feature file only. If you specify that keyword in one feature file, those prerequesites are specific to that featuere file.  
+  
+## Chapter 7  
+#### Usage of Hooks in setting up tear down and setup Scripts
+Hooks can be user for define prerequisites and postrequisite for each testcase unlike background.  
+Keywords: @Before is defining prerequisites and @After is defining postrequisites.  
+	@Before("@MobileTest") 
+	public void beforemobilevalidation() {
+		System.out.println("Before Mobile test");
+		
+	}
+	
+	@After("@MobileTest")
+	public void aftermobilevalidation() {
+		System.out.println("After mobile test");
+	}

@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features= "/Users/Udani/eclipse-workspace/AutomationCucumber/src/test/java/features",
 		glue= {"stepDefinitions"},
-		tags= "@SmokeTest, @SanityTest"
+		tags= "@MobileTest"
 		
 		)
 
