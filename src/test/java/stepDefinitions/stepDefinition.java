@@ -73,7 +73,7 @@ public class stepDefinition {
 		System.out.println("Cards are displayed");
 	    // throw new PendingException();
 	}
-	
+
 
 	//New code with regular expressions
 	@Then("^Cards are displayed \"([^\"]*)\"$")
@@ -98,12 +98,16 @@ public class stepDefinition {
 	}
 
 	//Parameterization
-	@When("^User login into the application with User(\\d+) and Password(\\d+)$")
-	public void user_login_into_the_application_with_User_and_Password(String Username, String Password) throws Throwable {
+	@When("^User login into the application with \"([^\"]*)\" and \"([^\"]*)\"$")
+	public void user_login_into_the_application_with_and(String username, String password) throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-		System.out.println(Username);
-		System.out.println(Password);
+		System.out.println(username);
+		System.out.println(password);
 
 	}
+	
+
+
+	
 
 }

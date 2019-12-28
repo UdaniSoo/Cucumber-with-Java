@@ -11,6 +11,7 @@ import cucumber.api.junit.Cucumber;
 		glue= "stepDefinitions",
 		//dryRun=true,
 		monochrome=true,
+		strict=true,
 		//tags= "@MobileTest",
 		plugin= {"pretty","html:target/cucumber", "json:target/cucumber.json","junit:target/cukes.xml"}
 		

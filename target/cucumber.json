@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 135734739,
+              "duration": 114379387,
               "status": "passed"
             },
             "line": 4,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 3840358,
+              "duration": 17652883,
               "status": "passed"
             },
             "line": 5,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 103974,
+              "duration": 86571,
               "status": "passed"
             },
             "line": 6,
@@ -58,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 140566,
+              "duration": 174035,
               "status": "passed"
             },
             "line": 7,
@@ -86,7 +86,7 @@
         "before": [
           {
             "result": {
-              "duration": 158862,
+              "duration": 172249,
               "status": "passed"
             },
             "match": {
@@ -101,7 +101,7 @@
         "after": [
           {
             "result": {
-              "duration": 71399,
+              "duration": 70060,
               "status": "passed"
             },
             "match": {
@@ -114,7 +114,7 @@
         "steps": [
           {
             "result": {
-              "duration": 85678,
+              "duration": 186976,
               "status": "passed"
             },
             "line": 11,
@@ -126,7 +126,7 @@
           },
           {
             "result": {
-              "duration": 124502,
+              "duration": 192331,
               "status": "passed"
             },
             "line": 12,
@@ -148,7 +148,7 @@
           },
           {
             "result": {
-              "duration": 79877,
+              "duration": 47301,
               "status": "passed"
             },
             "line": 13,
@@ -160,7 +160,7 @@
           },
           {
             "result": {
-              "duration": 137888,
+              "duration": 116469,
               "status": "passed"
             },
             "line": 14,
@@ -194,7 +194,7 @@
         "before": [
           {
             "result": {
-              "duration": 83001,
+              "duration": 69168,
               "status": "passed"
             },
             "match": {
@@ -209,7 +209,7 @@
         "after": [
           {
             "result": {
-              "duration": 55334,
+              "duration": 61581,
               "status": "passed"
             },
             "match": {
@@ -222,7 +222,7 @@
         "steps": [
           {
             "result": {
-              "duration": 91926,
+              "duration": 91479,
               "status": "passed"
             },
             "line": 20,
@@ -234,7 +234,7 @@
           },
           {
             "result": {
-              "duration": 1398076,
+              "duration": 1995148,
               "status": "passed"
             },
             "line": 21,
@@ -258,7 +258,7 @@
           },
           {
             "result": {
-              "duration": 66491,
+              "duration": 99512,
               "status": "passed"
             },
             "line": 23,
@@ -273,342 +273,6 @@
           {
             "line": 18,
             "name": "@MobileTest"
-          }
-        ]
-      },
-      {
-        "line": 35,
-        "name": "Home page default login",
-        "description": "",
-        "id": "application-login;home-page-default-login;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 91480,
-              "status": "passed"
-            },
-            "line": 28,
-            "name": "User is on netbanking landing page",
-            "match": {
-              "location": "stepDefinition.user_is_on_netbanking_landing_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 137888,
-              "status": "passed"
-            },
-            "line": 29,
-            "name": "User login into the application with User1 and Password1",
-            "match": {
-              "arguments": [
-                {
-                  "val": "1",
-                  "offset": 41
-                },
-                {
-                  "val": "1",
-                  "offset": 55
-                }
-              ],
-              "location": "stepDefinition.user_login_into_the_application_with_User_and_Password(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 59797,
-              "status": "passed"
-            },
-            "line": 30,
-            "name": "Home page is populated",
-            "match": {
-              "location": "stepDefinition.home_page_is_populated()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 127179,
-              "status": "passed"
-            },
-            "line": 31,
-            "name": "Cards are displayed \"True\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "True",
-                  "offset": 21
-                }
-              ],
-              "location": "stepDefinition.cards_are_displayed(String)"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "line": 26,
-            "name": "@RegTest"
-          }
-        ]
-      },
-      {
-        "line": 36,
-        "name": "Home page default login",
-        "description": "",
-        "id": "application-login;home-page-default-login;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 87909,
-              "status": "passed"
-            },
-            "line": 28,
-            "name": "User is on netbanking landing page",
-            "match": {
-              "location": "stepDefinition.user_is_on_netbanking_landing_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 168679,
-              "status": "passed"
-            },
-            "line": 29,
-            "name": "User login into the application with User2 and Password2",
-            "match": {
-              "arguments": [
-                {
-                  "val": "2",
-                  "offset": 41
-                },
-                {
-                  "val": "2",
-                  "offset": 55
-                }
-              ],
-              "location": "stepDefinition.user_login_into_the_application_with_User_and_Password(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 58904,
-              "status": "passed"
-            },
-            "line": 30,
-            "name": "Home page is populated",
-            "match": {
-              "location": "stepDefinition.home_page_is_populated()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 137889,
-              "status": "passed"
-            },
-            "line": 31,
-            "name": "Cards are displayed \"True\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "True",
-                  "offset": 21
-                }
-              ],
-              "location": "stepDefinition.cards_are_displayed(String)"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "line": 26,
-            "name": "@RegTest"
-          }
-        ]
-      },
-      {
-        "line": 37,
-        "name": "Home page default login",
-        "description": "",
-        "id": "application-login;home-page-default-login;;4",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 79432,
-              "status": "passed"
-            },
-            "line": 28,
-            "name": "User is on netbanking landing page",
-            "match": {
-              "location": "stepDefinition.user_is_on_netbanking_landing_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 134319,
-              "status": "passed"
-            },
-            "line": 29,
-            "name": "User login into the application with User3 and Password3",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 41
-                },
-                {
-                  "val": "3",
-                  "offset": 55
-                }
-              ],
-              "location": "stepDefinition.user_login_into_the_application_with_User_and_Password(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 61135,
-              "status": "passed"
-            },
-            "line": 30,
-            "name": "Home page is populated",
-            "match": {
-              "location": "stepDefinition.home_page_is_populated()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 108437,
-              "status": "passed"
-            },
-            "line": 31,
-            "name": "Cards are displayed \"True\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "True",
-                  "offset": 21
-                }
-              ],
-              "location": "stepDefinition.cards_are_displayed(String)"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "line": 26,
-            "name": "@RegTest"
-          }
-        ]
-      },
-      {
-        "line": 38,
-        "name": "Home page default login",
-        "description": "",
-        "id": "application-login;home-page-default-login;;5",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 78092,
-              "status": "passed"
-            },
-            "line": 28,
-            "name": "User is on netbanking landing page",
-            "match": {
-              "location": "stepDefinition.user_is_on_netbanking_landing_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 363241,
-              "status": "passed"
-            },
-            "line": 29,
-            "name": "User login into the application with User4 and Password4",
-            "match": {
-              "arguments": [
-                {
-                  "val": "4",
-                  "offset": 41
-                },
-                {
-                  "val": "4",
-                  "offset": 55
-                }
-              ],
-              "location": "stepDefinition.user_login_into_the_application_with_User_and_Password(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 65151,
-              "status": "passed"
-            },
-            "line": 30,
-            "name": "Home page is populated",
-            "match": {
-              "location": "stepDefinition.home_page_is_populated()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 116915,
-              "status": "passed"
-            },
-            "line": 31,
-            "name": "Cards are displayed \"True\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "True",
-                  "offset": 21
-                }
-              ],
-              "location": "stepDefinition.cards_are_displayed(String)"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "line": 26,
-            "name": "@RegTest"
           }
         ]
       }
@@ -631,7 +295,7 @@
         "steps": [
           {
             "result": {
-              "duration": 99066,
+              "duration": 90588,
               "status": "passed"
             },
             "line": 4,
@@ -643,7 +307,7 @@
           },
           {
             "result": {
-              "duration": 74523,
+              "duration": 60689,
               "status": "passed"
             },
             "line": 5,
@@ -655,7 +319,7 @@
           },
           {
             "result": {
-              "duration": 69614,
+              "duration": 74076,
               "status": "passed"
             },
             "line": 6,
@@ -677,7 +341,7 @@
         "steps": [
           {
             "result": {
-              "duration": 54441,
+              "duration": 70060,
               "status": "passed"
             },
             "line": 10,
@@ -689,7 +353,7 @@
           },
           {
             "result": {
-              "duration": 118254,
+              "duration": 184744,
               "status": "passed"
             },
             "line": 11,
@@ -711,7 +375,7 @@
           },
           {
             "result": {
-              "duration": 49979,
+              "duration": 79431,
               "status": "passed"
             },
             "line": 12,
@@ -723,7 +387,7 @@
           },
           {
             "result": {
-              "duration": 122717,
+              "duration": 124055,
               "status": "passed"
             },
             "line": 13,
@@ -756,7 +420,7 @@
         "steps": [
           {
             "result": {
-              "duration": 86570,
+              "duration": 94157,
               "status": "passed"
             },
             "line": 4,
@@ -768,7 +432,7 @@
           },
           {
             "result": {
-              "duration": 83893,
+              "duration": 74523,
               "status": "passed"
             },
             "line": 5,
@@ -780,7 +444,7 @@
           },
           {
             "result": {
-              "duration": 63367,
+              "duration": 78092,
               "status": "passed"
             },
             "line": 6,
@@ -802,7 +466,7 @@
         "steps": [
           {
             "result": {
-              "duration": 64705,
+              "duration": 66490,
               "status": "passed"
             },
             "line": 17,
@@ -814,7 +478,7 @@
           },
           {
             "result": {
-              "duration": 140120,
+              "duration": 148152,
               "status": "passed"
             },
             "line": 18,
@@ -836,7 +500,7 @@
           },
           {
             "result": {
-              "duration": 53995,
+              "duration": 69167,
               "status": "passed"
             },
             "line": 19,
@@ -848,7 +512,7 @@
           },
           {
             "result": {
-              "duration": 110221,
+              "duration": 107098,
               "status": "passed"
             },
             "line": 20,
@@ -881,7 +545,7 @@
         "steps": [
           {
             "result": {
-              "duration": 78538,
+              "duration": 94603,
               "status": "passed"
             },
             "line": 4,
@@ -893,7 +557,7 @@
           },
           {
             "result": {
-              "duration": 69614,
+              "duration": 64259,
               "status": "passed"
             },
             "line": 5,
@@ -905,7 +569,7 @@
           },
           {
             "result": {
-              "duration": 83001,
+              "duration": 64705,
               "status": "passed"
             },
             "line": 6,
@@ -933,7 +597,7 @@
         "steps": [
           {
             "result": {
-              "duration": 49533,
+              "duration": 67383,
               "status": "passed"
             },
             "line": 25,
@@ -945,7 +609,7 @@
           },
           {
             "result": {
-              "duration": 152614,
+              "duration": 145921,
               "status": "passed"
             },
             "line": 26,
@@ -969,7 +633,7 @@
           },
           {
             "result": {
-              "duration": 57119,
+              "duration": 110668,
               "status": "passed"
             },
             "line": 28,
@@ -996,7 +660,7 @@
         "steps": [
           {
             "result": {
-              "duration": 114684,
+              "duration": 195901,
               "status": "passed"
             },
             "line": 4,
@@ -1008,7 +672,7 @@
           },
           {
             "result": {
-              "duration": 64259,
+              "duration": 166895,
               "status": "passed"
             },
             "line": 5,
@@ -1020,7 +684,7 @@
           },
           {
             "result": {
-              "duration": 57119,
+              "duration": 68721,
               "status": "passed"
             },
             "line": 6,
@@ -1042,7 +706,7 @@
         "steps": [
           {
             "result": {
-              "duration": 61582,
+              "duration": 63813,
               "status": "passed"
             },
             "line": 33,
@@ -1054,23 +718,23 @@
           },
           {
             "result": {
-              "duration": 153061,
+              "duration": 179836,
               "status": "passed"
             },
             "line": 34,
-            "name": "User login into the application with User1 and Password1",
+            "name": "User login into the application with \"Test1\" and \"Passwrd1\"",
             "match": {
               "arguments": [
                 {
-                  "val": "1",
-                  "offset": 41
+                  "val": "Test1",
+                  "offset": 38
                 },
                 {
-                  "val": "1",
-                  "offset": 55
+                  "val": "Passwrd1",
+                  "offset": 50
                 }
               ],
-              "location": "stepDefinition.user_login_into_the_application_with_User_and_Password(String,String)"
+              "location": "stepDefinition.user_login_into_the_application_with_and(String,String)"
             },
             "matchedColumns": [
               0,
@@ -1080,7 +744,7 @@
           },
           {
             "result": {
-              "duration": 66937,
+              "duration": 75862,
               "status": "passed"
             },
             "line": 35,
@@ -1092,7 +756,7 @@
           },
           {
             "result": {
-              "duration": 112007,
+              "duration": 118254,
               "status": "passed"
             },
             "line": 36,
@@ -1125,7 +789,7 @@
         "steps": [
           {
             "result": {
-              "duration": 88802,
+              "duration": 107990,
               "status": "passed"
             },
             "line": 4,
@@ -1137,7 +801,7 @@
           },
           {
             "result": {
-              "duration": 58457,
+              "duration": 63367,
               "status": "passed"
             },
             "line": 5,
@@ -1149,7 +813,7 @@
           },
           {
             "result": {
-              "duration": 51764,
+              "duration": 53995,
               "status": "passed"
             },
             "line": 6,
@@ -1171,7 +835,7 @@
         "steps": [
           {
             "result": {
-              "duration": 138782,
+              "duration": 61135,
               "status": "passed"
             },
             "line": 33,
@@ -1183,23 +847,23 @@
           },
           {
             "result": {
-              "duration": 190991,
+              "duration": 174480,
               "status": "passed"
             },
             "line": 34,
-            "name": "User login into the application with User2 and Password2",
+            "name": "User login into the application with \"Test2\" and \"Passwrd2\"",
             "match": {
               "arguments": [
                 {
-                  "val": "2",
-                  "offset": 41
+                  "val": "Test2",
+                  "offset": 38
                 },
                 {
-                  "val": "2",
-                  "offset": 55
+                  "val": "Passwrd2",
+                  "offset": 50
                 }
               ],
-              "location": "stepDefinition.user_login_into_the_application_with_User_and_Password(String,String)"
+              "location": "stepDefinition.user_login_into_the_application_with_and(String,String)"
             },
             "matchedColumns": [
               0,
@@ -1209,7 +873,7 @@
           },
           {
             "result": {
-              "duration": 53995,
+              "duration": 86571,
               "status": "passed"
             },
             "line": 35,
@@ -1221,7 +885,7 @@
           },
           {
             "result": {
-              "duration": 110222,
+              "duration": 121378,
               "status": "passed"
             },
             "line": 36,
@@ -1254,7 +918,7 @@
         "steps": [
           {
             "result": {
-              "duration": 75861,
+              "duration": 99958,
               "status": "passed"
             },
             "line": 4,
@@ -1266,7 +930,7 @@
           },
           {
             "result": {
-              "duration": 38823,
+              "duration": 74968,
               "status": "passed"
             },
             "line": 5,
@@ -1278,7 +942,7 @@
           },
           {
             "result": {
-              "duration": 43286,
+              "duration": 56227,
               "status": "passed"
             },
             "line": 6,
@@ -1300,7 +964,7 @@
         "steps": [
           {
             "result": {
-              "duration": 48194,
+              "duration": 64259,
               "status": "passed"
             },
             "line": 33,
@@ -1312,23 +976,23 @@
           },
           {
             "result": {
-              "duration": 86124,
+              "duration": 195454,
               "status": "passed"
             },
             "line": 34,
-            "name": "User login into the application with User3 and Password3",
+            "name": "User login into the application with \"Test3\" and \"Passwrd3\"",
             "match": {
               "arguments": [
                 {
-                  "val": "3",
-                  "offset": 41
+                  "val": "Test3",
+                  "offset": 38
                 },
                 {
-                  "val": "3",
-                  "offset": 55
+                  "val": "Passwrd3",
+                  "offset": 50
                 }
               ],
-              "location": "stepDefinition.user_login_into_the_application_with_User_and_Password(String,String)"
+              "location": "stepDefinition.user_login_into_the_application_with_and(String,String)"
             },
             "matchedColumns": [
               0,
@@ -1338,7 +1002,7 @@
           },
           {
             "result": {
-              "duration": 36591,
+              "duration": 61136,
               "status": "passed"
             },
             "line": 35,
@@ -1350,7 +1014,7 @@
           },
           {
             "result": {
-              "duration": 78538,
+              "duration": 112453,
               "status": "passed"
             },
             "line": 36,
@@ -1383,7 +1047,7 @@
         "steps": [
           {
             "result": {
-              "duration": 56673,
+              "duration": 83001,
               "status": "passed"
             },
             "line": 4,
@@ -1395,7 +1059,7 @@
           },
           {
             "result": {
-              "duration": 38823,
+              "duration": 54888,
               "status": "passed"
             },
             "line": 5,
@@ -1407,7 +1071,7 @@
           },
           {
             "result": {
-              "duration": 35253,
+              "duration": 59796,
               "status": "passed"
             },
             "line": 6,
@@ -1429,7 +1093,7 @@
         "steps": [
           {
             "result": {
-              "duration": 65151,
+              "duration": 70060,
               "status": "passed"
             },
             "line": 33,
@@ -1441,23 +1105,23 @@
           },
           {
             "result": {
-              "duration": 122717,
+              "duration": 170464,
               "status": "passed"
             },
             "line": 34,
-            "name": "User login into the application with User4 and Password4",
+            "name": "User login into the application with \"Test4\" and \"Passwrd4\"",
             "match": {
               "arguments": [
                 {
-                  "val": "4",
-                  "offset": 41
+                  "val": "Test4",
+                  "offset": 38
                 },
                 {
-                  "val": "4",
-                  "offset": 55
+                  "val": "Passwrd4",
+                  "offset": 50
                 }
               ],
-              "location": "stepDefinition.user_login_into_the_application_with_User_and_Password(String,String)"
+              "location": "stepDefinition.user_login_into_the_application_with_and(String,String)"
             },
             "matchedColumns": [
               0,
@@ -1467,7 +1131,7 @@
           },
           {
             "result": {
-              "duration": 58458,
+              "duration": 49979,
               "status": "passed"
             },
             "line": 35,
@@ -1479,7 +1143,7 @@
           },
           {
             "result": {
-              "duration": 106652,
+              "duration": 103528,
               "status": "passed"
             },
             "line": 36,

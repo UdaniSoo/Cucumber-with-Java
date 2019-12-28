@@ -31,14 +31,14 @@ Then Home page is populated
 @RegTest
 Scenario Outline: Home page default login
 Given User is on netbanking landing page
-When User login into the application with <Username> and <Password>
+When User login into the application with "<username>" and "<password>"
 Then Home page is populated
 And Cards are displayed "True"
 
 Examples:
-|Username |Password|
-|User1 |Password1|
-|User2 |Password2|
-|User3 |Password3|
-|User4 |Password4|
+|username |password|
+|Test1 |Passwrd1|
+|Test2 |Passwrd2|
+|Test3 |Passwrd3|
+|Test4 |Passwrd4|
 

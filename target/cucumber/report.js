@@ -44,7 +44,7 @@ formatter.match({
   "location": "stepDefinition.user_is_on_netbanking_landing_page()"
 });
 formatter.result({
-  "duration": 135734739,
+  "duration": 114379387,
   "status": "passed"
 });
 formatter.match({
@@ -61,14 +61,14 @@ formatter.match({
   "location": "stepDefinition.user_login_to_the_application_with_and(String,String)"
 });
 formatter.result({
-  "duration": 3840358,
+  "duration": 17652883,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.home_page_is_populated()"
 });
 formatter.result({
-  "duration": 103974,
+  "duration": 86571,
   "status": "passed"
 });
 formatter.match({
@@ -81,11 +81,11 @@ formatter.match({
   "location": "stepDefinition.cards_are_displayed(String)"
 });
 formatter.result({
-  "duration": 140566,
+  "duration": 174035,
   "status": "passed"
 });
 formatter.before({
-  "duration": 158862,
+  "duration": 172249,
   "status": "passed"
 });
 formatter.scenario({
@@ -126,7 +126,7 @@ formatter.match({
   "location": "stepDefinition.user_is_on_netbanking_landing_page()"
 });
 formatter.result({
-  "duration": 85678,
+  "duration": 186976,
   "status": "passed"
 });
 formatter.match({
@@ -143,14 +143,14 @@ formatter.match({
   "location": "stepDefinition.user_login_to_the_application_with_and(String,String)"
 });
 formatter.result({
-  "duration": 124502,
+  "duration": 192331,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.home_page_is_populated()"
 });
 formatter.result({
-  "duration": 79877,
+  "duration": 47301,
   "status": "passed"
 });
 formatter.match({
@@ -163,15 +163,15 @@ formatter.match({
   "location": "stepDefinition.cards_are_displayed(String)"
 });
 formatter.result({
-  "duration": 137888,
+  "duration": 116469,
   "status": "passed"
 });
 formatter.after({
-  "duration": 71399,
+  "duration": 70060,
   "status": "passed"
 });
 formatter.before({
-  "duration": 83001,
+  "duration": 69168,
   "status": "passed"
 });
 formatter.scenario({
@@ -225,442 +225,25 @@ formatter.match({
   "location": "stepDefinition.user_is_on_netbanking_landing_page()"
 });
 formatter.result({
-  "duration": 91926,
+  "duration": 91479,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.user_sign_up_with_following_details(DataTable)"
 });
 formatter.result({
-  "duration": 1398076,
+  "duration": 1995148,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.home_page_is_populated()"
 });
 formatter.result({
-  "duration": 66491,
+  "duration": 99512,
   "status": "passed"
 });
 formatter.after({
-  "duration": 55334,
-  "status": "passed"
-});
-formatter.scenarioOutline({
-  "comments": [
-    {
-      "line": 25,
-      "value": "#/Parameterization"
-    }
-  ],
-  "line": 27,
-  "name": "Home page default login",
-  "description": "",
-  "id": "application-login;home-page-default-login",
-  "type": "scenario_outline",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 26,
-      "name": "@RegTest"
-    }
-  ]
-});
-formatter.step({
-  "line": 28,
-  "name": "User is on netbanking landing page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 29,
-  "name": "User login into the application with \u003cUsername\u003e and \u003cPassword\u003e",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 30,
-  "name": "Home page is populated",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 31,
-  "name": "Cards are displayed \"True\"",
-  "keyword": "And "
-});
-formatter.examples({
-  "line": 33,
-  "name": "",
-  "description": "",
-  "id": "application-login;home-page-default-login;",
-  "rows": [
-    {
-      "cells": [
-        "Username",
-        "Password"
-      ],
-      "line": 34,
-      "id": "application-login;home-page-default-login;;1"
-    },
-    {
-      "cells": [
-        "User1",
-        "Password1"
-      ],
-      "line": 35,
-      "id": "application-login;home-page-default-login;;2"
-    },
-    {
-      "cells": [
-        "User2",
-        "Password2"
-      ],
-      "line": 36,
-      "id": "application-login;home-page-default-login;;3"
-    },
-    {
-      "cells": [
-        "User3",
-        "Password3"
-      ],
-      "line": 37,
-      "id": "application-login;home-page-default-login;;4"
-    },
-    {
-      "cells": [
-        "User4",
-        "Password4"
-      ],
-      "line": 38,
-      "id": "application-login;home-page-default-login;;5"
-    }
-  ],
-  "keyword": "Examples"
-});
-formatter.scenario({
-  "line": 35,
-  "name": "Home page default login",
-  "description": "",
-  "id": "application-login;home-page-default-login;;2",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 26,
-      "name": "@RegTest"
-    }
-  ]
-});
-formatter.step({
-  "line": 28,
-  "name": "User is on netbanking landing page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 29,
-  "name": "User login into the application with User1 and Password1",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 30,
-  "name": "Home page is populated",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 31,
-  "name": "Cards are displayed \"True\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepDefinition.user_is_on_netbanking_landing_page()"
-});
-formatter.result({
-  "duration": 91480,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "1",
-      "offset": 41
-    },
-    {
-      "val": "1",
-      "offset": 55
-    }
-  ],
-  "location": "stepDefinition.user_login_into_the_application_with_User_and_Password(String,String)"
-});
-formatter.result({
-  "duration": 137888,
-  "status": "passed"
-});
-formatter.match({
-  "location": "stepDefinition.home_page_is_populated()"
-});
-formatter.result({
-  "duration": 59797,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "True",
-      "offset": 21
-    }
-  ],
-  "location": "stepDefinition.cards_are_displayed(String)"
-});
-formatter.result({
-  "duration": 127179,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 36,
-  "name": "Home page default login",
-  "description": "",
-  "id": "application-login;home-page-default-login;;3",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 26,
-      "name": "@RegTest"
-    }
-  ]
-});
-formatter.step({
-  "line": 28,
-  "name": "User is on netbanking landing page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 29,
-  "name": "User login into the application with User2 and Password2",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 30,
-  "name": "Home page is populated",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 31,
-  "name": "Cards are displayed \"True\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepDefinition.user_is_on_netbanking_landing_page()"
-});
-formatter.result({
-  "duration": 87909,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "2",
-      "offset": 41
-    },
-    {
-      "val": "2",
-      "offset": 55
-    }
-  ],
-  "location": "stepDefinition.user_login_into_the_application_with_User_and_Password(String,String)"
-});
-formatter.result({
-  "duration": 168679,
-  "status": "passed"
-});
-formatter.match({
-  "location": "stepDefinition.home_page_is_populated()"
-});
-formatter.result({
-  "duration": 58904,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "True",
-      "offset": 21
-    }
-  ],
-  "location": "stepDefinition.cards_are_displayed(String)"
-});
-formatter.result({
-  "duration": 137889,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 37,
-  "name": "Home page default login",
-  "description": "",
-  "id": "application-login;home-page-default-login;;4",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 26,
-      "name": "@RegTest"
-    }
-  ]
-});
-formatter.step({
-  "line": 28,
-  "name": "User is on netbanking landing page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 29,
-  "name": "User login into the application with User3 and Password3",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 30,
-  "name": "Home page is populated",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 31,
-  "name": "Cards are displayed \"True\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepDefinition.user_is_on_netbanking_landing_page()"
-});
-formatter.result({
-  "duration": 79432,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "3",
-      "offset": 41
-    },
-    {
-      "val": "3",
-      "offset": 55
-    }
-  ],
-  "location": "stepDefinition.user_login_into_the_application_with_User_and_Password(String,String)"
-});
-formatter.result({
-  "duration": 134319,
-  "status": "passed"
-});
-formatter.match({
-  "location": "stepDefinition.home_page_is_populated()"
-});
-formatter.result({
-  "duration": 61135,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "True",
-      "offset": 21
-    }
-  ],
-  "location": "stepDefinition.cards_are_displayed(String)"
-});
-formatter.result({
-  "duration": 108437,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 38,
-  "name": "Home page default login",
-  "description": "",
-  "id": "application-login;home-page-default-login;;5",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 26,
-      "name": "@RegTest"
-    }
-  ]
-});
-formatter.step({
-  "line": 28,
-  "name": "User is on netbanking landing page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 29,
-  "name": "User login into the application with User4 and Password4",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 30,
-  "name": "Home page is populated",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 31,
-  "name": "Cards are displayed \"True\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepDefinition.user_is_on_netbanking_landing_page()"
-});
-formatter.result({
-  "duration": 78092,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "4",
-      "offset": 41
-    },
-    {
-      "val": "4",
-      "offset": 55
-    }
-  ],
-  "location": "stepDefinition.user_login_into_the_application_with_User_and_Password(String,String)"
-});
-formatter.result({
-  "duration": 363241,
-  "status": "passed"
-});
-formatter.match({
-  "location": "stepDefinition.home_page_is_populated()"
-});
-formatter.result({
-  "duration": 65151,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "True",
-      "offset": 21
-    }
-  ],
-  "location": "stepDefinition.cards_are_displayed(String)"
-});
-formatter.result({
-  "duration": 116915,
+  "duration": 61581,
   "status": "passed"
 });
 formatter.uri("Login.feature");
@@ -697,21 +280,21 @@ formatter.match({
   "location": "stepDefinition.validate_the_browser()"
 });
 formatter.result({
-  "duration": 99066,
+  "duration": 90588,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.browser_is_triggered()"
 });
 formatter.result({
-  "duration": 74523,
+  "duration": 60689,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.check_if_the_browser_is_displayed()"
 });
 formatter.result({
-  "duration": 69614,
+  "duration": 74076,
   "status": "passed"
 });
 formatter.scenario({
@@ -752,7 +335,7 @@ formatter.match({
   "location": "stepDefinition.user_is_on_netbanking_landing_page()"
 });
 formatter.result({
-  "duration": 54441,
+  "duration": 70060,
   "status": "passed"
 });
 formatter.match({
@@ -769,14 +352,14 @@ formatter.match({
   "location": "stepDefinition.user_login_to_the_application_with_and(String,String)"
 });
 formatter.result({
-  "duration": 118254,
+  "duration": 184744,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.home_page_is_populated()"
 });
 formatter.result({
-  "duration": 49979,
+  "duration": 79431,
   "status": "passed"
 });
 formatter.match({
@@ -789,7 +372,7 @@ formatter.match({
   "location": "stepDefinition.cards_are_displayed(String)"
 });
 formatter.result({
-  "duration": 122717,
+  "duration": 124055,
   "status": "passed"
 });
 formatter.background({
@@ -818,21 +401,21 @@ formatter.match({
   "location": "stepDefinition.validate_the_browser()"
 });
 formatter.result({
-  "duration": 86570,
+  "duration": 94157,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.browser_is_triggered()"
 });
 formatter.result({
-  "duration": 83893,
+  "duration": 74523,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.check_if_the_browser_is_displayed()"
 });
 formatter.result({
-  "duration": 63367,
+  "duration": 78092,
   "status": "passed"
 });
 formatter.scenario({
@@ -873,7 +456,7 @@ formatter.match({
   "location": "stepDefinition.user_is_on_netbanking_landing_page()"
 });
 formatter.result({
-  "duration": 64705,
+  "duration": 66490,
   "status": "passed"
 });
 formatter.match({
@@ -890,14 +473,14 @@ formatter.match({
   "location": "stepDefinition.user_login_to_the_application_with_and(String,String)"
 });
 formatter.result({
-  "duration": 140120,
+  "duration": 148152,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.home_page_is_populated()"
 });
 formatter.result({
-  "duration": 53995,
+  "duration": 69167,
   "status": "passed"
 });
 formatter.match({
@@ -910,7 +493,7 @@ formatter.match({
   "location": "stepDefinition.cards_are_displayed(String)"
 });
 formatter.result({
-  "duration": 110221,
+  "duration": 107098,
   "status": "passed"
 });
 formatter.background({
@@ -939,21 +522,21 @@ formatter.match({
   "location": "stepDefinition.validate_the_browser()"
 });
 formatter.result({
-  "duration": 78538,
+  "duration": 94603,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.browser_is_triggered()"
 });
 formatter.result({
-  "duration": 69614,
+  "duration": 64259,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.check_if_the_browser_is_displayed()"
 });
 formatter.result({
-  "duration": 83001,
+  "duration": 64705,
   "status": "passed"
 });
 formatter.scenario({
@@ -1007,21 +590,21 @@ formatter.match({
   "location": "stepDefinition.user_is_on_netbanking_landing_page()"
 });
 formatter.result({
-  "duration": 49533,
+  "duration": 67383,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.user_sign_up_with_following_details(DataTable)"
 });
 formatter.result({
-  "duration": 152614,
+  "duration": 145921,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.home_page_is_populated()"
 });
 formatter.result({
-  "duration": 57119,
+  "duration": 110668,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -1051,7 +634,7 @@ formatter.step({
 });
 formatter.step({
   "line": 34,
-  "name": "User login into the application with \u003cUsername\u003e and \u003cPassword\u003e",
+  "name": "User login into the application with \"\u003cusername\u003e\" and \"\u003cpassword\u003e\"",
   "keyword": "When "
 });
 formatter.step({
@@ -1072,40 +655,40 @@ formatter.examples({
   "rows": [
     {
       "cells": [
-        "Username",
-        "Password"
+        "username",
+        "password"
       ],
       "line": 39,
       "id": "application-login;home-page-default-login;;1"
     },
     {
       "cells": [
-        "User1",
-        "Password1"
+        "Test1",
+        "Passwrd1"
       ],
       "line": 40,
       "id": "application-login;home-page-default-login;;2"
     },
     {
       "cells": [
-        "User2",
-        "Password2"
+        "Test2",
+        "Passwrd2"
       ],
       "line": 41,
       "id": "application-login;home-page-default-login;;3"
     },
     {
       "cells": [
-        "User3",
-        "Password3"
+        "Test3",
+        "Passwrd3"
       ],
       "line": 42,
       "id": "application-login;home-page-default-login;;4"
     },
     {
       "cells": [
-        "User4",
-        "Password4"
+        "Test4",
+        "Passwrd4"
       ],
       "line": 43,
       "id": "application-login;home-page-default-login;;5"
@@ -1139,21 +722,21 @@ formatter.match({
   "location": "stepDefinition.validate_the_browser()"
 });
 formatter.result({
-  "duration": 114684,
+  "duration": 195901,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.browser_is_triggered()"
 });
 formatter.result({
-  "duration": 64259,
+  "duration": 166895,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.check_if_the_browser_is_displayed()"
 });
 formatter.result({
-  "duration": 57119,
+  "duration": 68721,
   "status": "passed"
 });
 formatter.scenario({
@@ -1177,7 +760,7 @@ formatter.step({
 });
 formatter.step({
   "line": 34,
-  "name": "User login into the application with User1 and Password1",
+  "name": "User login into the application with \"Test1\" and \"Passwrd1\"",
   "matchedColumns": [
     0,
     1
@@ -1198,31 +781,31 @@ formatter.match({
   "location": "stepDefinition.user_is_on_netbanking_landing_page()"
 });
 formatter.result({
-  "duration": 61582,
+  "duration": 63813,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "1",
-      "offset": 41
+      "val": "Test1",
+      "offset": 38
     },
     {
-      "val": "1",
-      "offset": 55
+      "val": "Passwrd1",
+      "offset": 50
     }
   ],
-  "location": "stepDefinition.user_login_into_the_application_with_User_and_Password(String,String)"
+  "location": "stepDefinition.user_login_into_the_application_with_and(String,String)"
 });
 formatter.result({
-  "duration": 153061,
+  "duration": 179836,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.home_page_is_populated()"
 });
 formatter.result({
-  "duration": 66937,
+  "duration": 75862,
   "status": "passed"
 });
 formatter.match({
@@ -1235,7 +818,7 @@ formatter.match({
   "location": "stepDefinition.cards_are_displayed(String)"
 });
 formatter.result({
-  "duration": 112007,
+  "duration": 118254,
   "status": "passed"
 });
 formatter.background({
@@ -1264,21 +847,21 @@ formatter.match({
   "location": "stepDefinition.validate_the_browser()"
 });
 formatter.result({
-  "duration": 88802,
+  "duration": 107990,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.browser_is_triggered()"
 });
 formatter.result({
-  "duration": 58457,
+  "duration": 63367,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.check_if_the_browser_is_displayed()"
 });
 formatter.result({
-  "duration": 51764,
+  "duration": 53995,
   "status": "passed"
 });
 formatter.scenario({
@@ -1302,7 +885,7 @@ formatter.step({
 });
 formatter.step({
   "line": 34,
-  "name": "User login into the application with User2 and Password2",
+  "name": "User login into the application with \"Test2\" and \"Passwrd2\"",
   "matchedColumns": [
     0,
     1
@@ -1323,31 +906,31 @@ formatter.match({
   "location": "stepDefinition.user_is_on_netbanking_landing_page()"
 });
 formatter.result({
-  "duration": 138782,
+  "duration": 61135,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "2",
-      "offset": 41
+      "val": "Test2",
+      "offset": 38
     },
     {
-      "val": "2",
-      "offset": 55
+      "val": "Passwrd2",
+      "offset": 50
     }
   ],
-  "location": "stepDefinition.user_login_into_the_application_with_User_and_Password(String,String)"
+  "location": "stepDefinition.user_login_into_the_application_with_and(String,String)"
 });
 formatter.result({
-  "duration": 190991,
+  "duration": 174480,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.home_page_is_populated()"
 });
 formatter.result({
-  "duration": 53995,
+  "duration": 86571,
   "status": "passed"
 });
 formatter.match({
@@ -1360,7 +943,7 @@ formatter.match({
   "location": "stepDefinition.cards_are_displayed(String)"
 });
 formatter.result({
-  "duration": 110222,
+  "duration": 121378,
   "status": "passed"
 });
 formatter.background({
@@ -1389,21 +972,21 @@ formatter.match({
   "location": "stepDefinition.validate_the_browser()"
 });
 formatter.result({
-  "duration": 75861,
+  "duration": 99958,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.browser_is_triggered()"
 });
 formatter.result({
-  "duration": 38823,
+  "duration": 74968,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.check_if_the_browser_is_displayed()"
 });
 formatter.result({
-  "duration": 43286,
+  "duration": 56227,
   "status": "passed"
 });
 formatter.scenario({
@@ -1427,7 +1010,7 @@ formatter.step({
 });
 formatter.step({
   "line": 34,
-  "name": "User login into the application with User3 and Password3",
+  "name": "User login into the application with \"Test3\" and \"Passwrd3\"",
   "matchedColumns": [
     0,
     1
@@ -1448,31 +1031,31 @@ formatter.match({
   "location": "stepDefinition.user_is_on_netbanking_landing_page()"
 });
 formatter.result({
-  "duration": 48194,
+  "duration": 64259,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "3",
-      "offset": 41
+      "val": "Test3",
+      "offset": 38
     },
     {
-      "val": "3",
-      "offset": 55
+      "val": "Passwrd3",
+      "offset": 50
     }
   ],
-  "location": "stepDefinition.user_login_into_the_application_with_User_and_Password(String,String)"
+  "location": "stepDefinition.user_login_into_the_application_with_and(String,String)"
 });
 formatter.result({
-  "duration": 86124,
+  "duration": 195454,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.home_page_is_populated()"
 });
 formatter.result({
-  "duration": 36591,
+  "duration": 61136,
   "status": "passed"
 });
 formatter.match({
@@ -1485,7 +1068,7 @@ formatter.match({
   "location": "stepDefinition.cards_are_displayed(String)"
 });
 formatter.result({
-  "duration": 78538,
+  "duration": 112453,
   "status": "passed"
 });
 formatter.background({
@@ -1514,21 +1097,21 @@ formatter.match({
   "location": "stepDefinition.validate_the_browser()"
 });
 formatter.result({
-  "duration": 56673,
+  "duration": 83001,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.browser_is_triggered()"
 });
 formatter.result({
-  "duration": 38823,
+  "duration": 54888,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.check_if_the_browser_is_displayed()"
 });
 formatter.result({
-  "duration": 35253,
+  "duration": 59796,
   "status": "passed"
 });
 formatter.scenario({
@@ -1552,7 +1135,7 @@ formatter.step({
 });
 formatter.step({
   "line": 34,
-  "name": "User login into the application with User4 and Password4",
+  "name": "User login into the application with \"Test4\" and \"Passwrd4\"",
   "matchedColumns": [
     0,
     1
@@ -1573,31 +1156,31 @@ formatter.match({
   "location": "stepDefinition.user_is_on_netbanking_landing_page()"
 });
 formatter.result({
-  "duration": 65151,
+  "duration": 70060,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "4",
-      "offset": 41
+      "val": "Test4",
+      "offset": 38
     },
     {
-      "val": "4",
-      "offset": 55
+      "val": "Passwrd4",
+      "offset": 50
     }
   ],
-  "location": "stepDefinition.user_login_into_the_application_with_User_and_Password(String,String)"
+  "location": "stepDefinition.user_login_into_the_application_with_and(String,String)"
 });
 formatter.result({
-  "duration": 122717,
+  "duration": 170464,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.home_page_is_populated()"
 });
 formatter.result({
-  "duration": 58458,
+  "duration": 49979,
   "status": "passed"
 });
 formatter.match({
@@ -1610,7 +1193,7 @@ formatter.match({
   "location": "stepDefinition.cards_are_displayed(String)"
 });
 formatter.result({
-  "duration": 106652,
+  "duration": 103528,
   "status": "passed"
 });
 });
