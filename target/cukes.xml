@@ -1,120 +1,120 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="14" time="0">
-<testcase classname="Application Login" name="Home page default login" time="0">
-<system-out><![CDATA[Given User is on netbanking landing page....................................skipped
-When User login to the application with "Jin" and "1234"....................skipped
-Then Home page is populated.................................................skipped
-And Cards are displayed "true"..............................................skipped
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="14" time="0.147944">
+<testcase classname="Application Login" name="Home page default login" time="0.13982">
+<system-out><![CDATA[Given User is on netbanking landing page....................................passed
+When User login to the application with "Jin" and "1234"....................passed
+Then Home page is populated.................................................passed
+And Cards are displayed "true"..............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Application Login" name="Home page default login" time="0">
-<system-out><![CDATA[Given User is on netbanking landing page....................................skipped
-When User login to the application with "Jhone" and "4321"..................skipped
-Then Home page is populated.................................................skipped
-And Cards are displayed "False".............................................skipped
+<testcase classname="Application Login" name="Home page default login" time="0.000658">
+<system-out><![CDATA[Given User is on netbanking landing page....................................passed
+When User login to the application with "Jhone" and "4321"..................passed
+Then Home page is populated.................................................passed
+And Cards are displayed "False".............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Application Login" name="Home page default login" time="0">
-<system-out><![CDATA[Given User is on netbanking landing page....................................skipped
-When User sign up with following details....................................skipped
-Then Home page is populated.................................................skipped
+<testcase classname="Application Login" name="Home page default login" time="0.001695">
+<system-out><![CDATA[Given User is on netbanking landing page....................................passed
+When User sign up with following details....................................passed
+Then Home page is populated.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Application Login" name="Home page default login" time="0">
-<system-out><![CDATA[Given User is on netbanking landing page....................................skipped
-When User login into the application with User1 and Password1...............skipped
-Then Home page is populated.................................................skipped
-And Cards are displayed "True"..............................................skipped
+<testcase classname="Application Login" name="Home page default login" time="0.000416">
+<system-out><![CDATA[Given User is on netbanking landing page....................................passed
+When User login into the application with User1 and Password1...............passed
+Then Home page is populated.................................................passed
+And Cards are displayed "True"..............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Application Login" name="Home page default login 2" time="0">
-<system-out><![CDATA[Given User is on netbanking landing page....................................skipped
-When User login into the application with User2 and Password2...............skipped
-Then Home page is populated.................................................skipped
-And Cards are displayed "True"..............................................skipped
+<testcase classname="Application Login" name="Home page default login 2" time="0.000453">
+<system-out><![CDATA[Given User is on netbanking landing page....................................passed
+When User login into the application with User2 and Password2...............passed
+Then Home page is populated.................................................passed
+And Cards are displayed "True"..............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Application Login" name="Home page default login 3" time="0">
-<system-out><![CDATA[Given User is on netbanking landing page....................................skipped
-When User login into the application with User3 and Password3...............skipped
-Then Home page is populated.................................................skipped
-And Cards are displayed "True"..............................................skipped
+<testcase classname="Application Login" name="Home page default login 3" time="0.000383">
+<system-out><![CDATA[Given User is on netbanking landing page....................................passed
+When User login into the application with User3 and Password3...............passed
+Then Home page is populated.................................................passed
+And Cards are displayed "True"..............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Application Login" name="Home page default login 4" time="0">
-<system-out><![CDATA[Given User is on netbanking landing page....................................skipped
-When User login into the application with User4 and Password4...............skipped
-Then Home page is populated.................................................skipped
-And Cards are displayed "True"..............................................skipped
+<testcase classname="Application Login" name="Home page default login 4" time="0.000623">
+<system-out><![CDATA[Given User is on netbanking landing page....................................passed
+When User login into the application with User4 and Password4...............passed
+Then Home page is populated.................................................passed
+And Cards are displayed "True"..............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Application Login" name="Home page default login" time="0">
-<system-out><![CDATA[Given Validate the browser..................................................skipped
-When Browser is triggered...................................................skipped
-Then Check if the browser is displayed......................................skipped
-Given User is on netbanking landing page....................................skipped
-When User login to the application with "Jin" and "1234"....................skipped
-Then Home page is populated.................................................skipped
-And Cards are displayed "true"..............................................skipped
+<testcase classname="Application Login" name="Home page default login" time="0.000589">
+<system-out><![CDATA[Given Validate the browser..................................................passed
+When Browser is triggered...................................................passed
+Then Check if the browser is displayed......................................passed
+Given User is on netbanking landing page....................................passed
+When User login to the application with "Jin" and "1234"....................passed
+Then Home page is populated.................................................passed
+And Cards are displayed "true"..............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Application Login" name="Home page default login" time="0">
-<system-out><![CDATA[Given Validate the browser..................................................skipped
-When Browser is triggered...................................................skipped
-Then Check if the browser is displayed......................................skipped
-Given User is on netbanking landing page....................................skipped
-When User login to the application with "Jhone" and "4321"..................skipped
-Then Home page is populated.................................................skipped
-And Cards are displayed "False".............................................skipped
+<testcase classname="Application Login" name="Home page default login" time="0.000603">
+<system-out><![CDATA[Given Validate the browser..................................................passed
+When Browser is triggered...................................................passed
+Then Check if the browser is displayed......................................passed
+Given User is on netbanking landing page....................................passed
+When User login to the application with "Jhone" and "4321"..................passed
+Then Home page is populated.................................................passed
+And Cards are displayed "False".............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Application Login" name="Home page default login" time="0">
-<system-out><![CDATA[Given Validate the browser..................................................skipped
-When Browser is triggered...................................................skipped
-Then Check if the browser is displayed......................................skipped
-Given User is on netbanking landing page....................................skipped
-When User sign up with following details....................................skipped
-Then Home page is populated.................................................skipped
+<testcase classname="Application Login" name="Home page default login" time="0.00049">
+<system-out><![CDATA[Given Validate the browser..................................................passed
+When Browser is triggered...................................................passed
+Then Check if the browser is displayed......................................passed
+Given User is on netbanking landing page....................................passed
+When User sign up with following details....................................passed
+Then Home page is populated.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Application Login" name="Home page default login" time="0">
-<system-out><![CDATA[Given Validate the browser..................................................skipped
-When Browser is triggered...................................................skipped
-Then Check if the browser is displayed......................................skipped
-Given User is on netbanking landing page....................................skipped
-When User login into the application with User1 and Password1...............skipped
-Then Home page is populated.................................................skipped
-And Cards are displayed "True"..............................................skipped
+<testcase classname="Application Login" name="Home page default login" time="0.00063">
+<system-out><![CDATA[Given Validate the browser..................................................passed
+When Browser is triggered...................................................passed
+Then Check if the browser is displayed......................................passed
+Given User is on netbanking landing page....................................passed
+When User login into the application with User1 and Password1...............passed
+Then Home page is populated.................................................passed
+And Cards are displayed "True"..............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Application Login" name="Home page default login 2" time="0">
-<system-out><![CDATA[Given Validate the browser..................................................skipped
-When Browser is triggered...................................................skipped
-Then Check if the browser is displayed......................................skipped
-Given User is on netbanking landing page....................................skipped
-When User login into the application with User2 and Password2...............skipped
-Then Home page is populated.................................................skipped
-And Cards are displayed "True"..............................................skipped
+<testcase classname="Application Login" name="Home page default login 2" time="0.000693">
+<system-out><![CDATA[Given Validate the browser..................................................passed
+When Browser is triggered...................................................passed
+Then Check if the browser is displayed......................................passed
+Given User is on netbanking landing page....................................passed
+When User login into the application with User2 and Password2...............passed
+Then Home page is populated.................................................passed
+And Cards are displayed "True"..............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Application Login" name="Home page default login 3" time="0">
-<system-out><![CDATA[Given Validate the browser..................................................skipped
-When Browser is triggered...................................................skipped
-Then Check if the browser is displayed......................................skipped
-Given User is on netbanking landing page....................................skipped
-When User login into the application with User3 and Password3...............skipped
-Then Home page is populated.................................................skipped
-And Cards are displayed "True"..............................................skipped
+<testcase classname="Application Login" name="Home page default login 3" time="0.000407">
+<system-out><![CDATA[Given Validate the browser..................................................passed
+When Browser is triggered...................................................passed
+Then Check if the browser is displayed......................................passed
+Given User is on netbanking landing page....................................passed
+When User login into the application with User3 and Password3...............passed
+Then Home page is populated.................................................passed
+And Cards are displayed "True"..............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Application Login" name="Home page default login 4" time="0">
-<system-out><![CDATA[Given Validate the browser..................................................skipped
-When Browser is triggered...................................................skipped
-Then Check if the browser is displayed......................................skipped
-Given User is on netbanking landing page....................................skipped
-When User login into the application with User4 and Password4...............skipped
-Then Home page is populated.................................................skipped
-And Cards are displayed "True"..............................................skipped
+<testcase classname="Application Login" name="Home page default login 4" time="0.000484">
+<system-out><![CDATA[Given Validate the browser..................................................passed
+When Browser is triggered...................................................passed
+Then Check if the browser is displayed......................................passed
+Given User is on netbanking landing page....................................passed
+When User login into the application with User4 and Password4...............passed
+Then Home page is populated.................................................passed
+And Cards are displayed "True"..............................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

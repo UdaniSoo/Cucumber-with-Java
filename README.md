@@ -201,4 +201,8 @@ Keywords: @Before is defining prerequisites and @After is defining postrequisite
 1. dryRun  
 This will not run test cases in your code. but it will scan your code and tell you if any testcase is not match to step definition file. If its not match it will show in the out put and ask you to implement the missing part.  
 you can add "dryRun=true" with glue parameters in your testrunner file. Then it will scan the file and show the matching codes in green and not matching areas highlighted in red.  
-Simply it can validate  your script file.
+Simply it can validate  your script file.  
+2. monochrome
+The output you are seen in console will be neat and properly formatted if you use this attribute. This will remove all unwanted things in your console.  
+3. strict
+If you dont want to pass the test if there are any missing implementation and if you are very strict.
