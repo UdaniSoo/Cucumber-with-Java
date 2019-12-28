@@ -9,7 +9,8 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features= "/Users/Udani/eclipse-workspace/AutomationCucumber/src/test/java/features",
 		glue= {"stepDefinitions"},
-		tags= "@MobileTest"
+		tags= "@MobileTest",
+		plugin= {"pretty","html:target/cucumber", "json:target/cucumber.json","junit:target/cukes.xml"}
 		
 		)
 
