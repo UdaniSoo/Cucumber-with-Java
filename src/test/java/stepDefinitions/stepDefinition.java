@@ -58,7 +58,7 @@ public class stepDefinition {
 	    System.out.println(arg1);
 	    System.out.println(arg2);
 	}
-	
+
 	@Then("^Home page is populated$")
 	public void home_page_is_populated() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions

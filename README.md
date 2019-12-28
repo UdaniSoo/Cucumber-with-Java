@@ -187,4 +187,18 @@ Keywords: @Before is defining prerequisites and @After is defining postrequisite
 	@After("@MobileTest")
 	public void aftermobilevalidation() {
 		System.out.println("After mobile test");
-	}
+	}  
+  ## Chapter 8
+  #### Generating reports of cucumber scenarios  
+  Add below in your testrunner for generate reports,
+  plugin= {"pretty","html:target/cucumber","json:target/cucumber"}  
+
+  "pretty": is the plugin name  
+  "html:target/cucumber" :Place to locate the file.  Normally reports are locating inside the target folder in the project.  
+
+
+#### Importance of Attributes in cucumber options  
+1. dryRun  
+This will not run test cases in your code. but it will scan your code and tell you if any testcase is not match to step definition file. If its not match it will show in the out put and ask you to implement the missing part.  
+you can add "dryRun=true" with glue parameters in your testrunner file. Then it will scan the file and show the matching codes in green and not matching areas highlighted in red.  
+Simply it can validate  your script file.
