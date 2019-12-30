@@ -229,4 +229,133 @@ Use background if the pre and post conditions are common throghout the feature f
 A: Plugin in testrunner  
 9.  
 
-## Mavan and Jerkins
+## Chapter 9: Mavan and Jerkins  
+Apache mavan is a software project management and build management tool for java frameworks.  
+1. Why Maven?  
+- Central repository to get al the dependancies.  
+Normal java project- User has to add jars manully. if the jars are out dated user has to remove out dated jars and import new jars manually.  
+User doesn't add jars to project manually in a maven project. user is defining dependencies in the code. when the code runs, it will download required jars from maven repository.  
+Maven project is very easy to maintain and share with other. If you want to run yur code in another machine, user has to download and add jars to project manually if it's a java project. but if it is a maven project it will read the dependencies and download the required jars automatically.    
+  
+
+2. Maintaining commom structure across the organization.  
+my-app
+|-- pom.xml
+`-- src
+    |-- main
+    |   `-- java
+    |       `-- com
+    |           `-- mycompany
+    |               `-- app
+    |                   `-- App.java
+    `-- test
+        `-- java
+            `-- com
+                `-- mycompany
+                    `-- app
+                        `-- AppTest.java  
+
+You have a main folder and inside it you have src and test folders.  
+All your test cases should go under test folder.  
+All src folder youcan define testdata, utilities like reusable menthods, Page objects.  
+Maven will create this skeliton for you. this is a in build structure.  
+3. Flexibility in intergrating with CI(Continues Intergration) tools.  
+you need continues intergration tool like jenkins, If you have 500 test to run at one night. To do that you need a build management tool for your framework. Maven is helping as a build mgt tool.  
+4. Plugins for test framework execution.  
+Maven supports junit, testNG.  
+
+#### Installing and configuring Maven  
+Download apache-maven-3.6.3-bin.zip folder. 
+Setup system variables,
+Add Maven_Home= C:\Software\apache-maven-3.6.3-bin\apache-maven-3.6.3  
+Add location of bin folder to PATH variable.  
+How to check whether maven is properly installed,  
+Open CMD and enter Maven --version.  
+
+#### Understanding Maven terminologies  
+Artifact: is a file. usually a JAR file that gets deployed to a Maven repository.  
+GroupID: This will identify your project across all the projects.  There are lot of project hosted in the maven repository. Your locatl project will identify the repository by groupID mention in the dependency code.  
+Example: Selenium
+ArtifactID: sub project details are passed by ArtifactID. Artifact is a Jar name.
+Example: Selenium Java
+
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId> //Selenium project
+    <artifactId>selenium-java</artifactId>  //Selenium jar file
+    <version>3.141.59</version>
+</dependency>
+
+Above dependency code will pull and install jars(3.141.59) called selenium-java in Selenium project.  
+Maven template for testing is quickstart.  
+ArtifactID we are passing will be our project name. GroupName will be our package name.  
+
+
+Pom.xml
+This file content,
+artifactID 
+groupID
+Dependencies.
+
+Maven will connect to maven repository and download the all JArs required and located in C:\Users\Udani\.m2\repository location in your machine.
+When your code is runing it will get jars in C:\Users\Udani\.m2\repositor location and run the test successfully.  
+pom.xml file should always located in project level not inside folders.  
+
+#### Understanding POM.xml file and its dependencies  
+
+Importance of Maven Sure fire plugin  
+- This plugin is use to execute all the testcases in your maven project.  
+- Ths plugin you need to mention in pom.xlm file as a dependency.  
+
+#### Importance of surefirePlugin in executing Tests  
+  
+Maven Clean:  
+This will clean buil errors, unwanted files and clean the project.  this will clear the information of previous build.  
+Maven Comple:  
+This will not run your test but it will scan the code and tell you if there is syntax errors.  
+Maven Test: 
+This will trigger your test. this command will do the clean and comple before it execute the test.  
+Test command will first read the pom.xml and check whether those things are in your local and then download all missing dependencies.  
+  
+### Importance of Jenkins in Test frameworks  
+Jenkins:  
+jenkin is a continues intergration tool which developed for test automation.  
+If you want to run your script at 2am, you can use jenkins job to tell maven. Jenkin job will run maven commands.  
+You can set jenkin jobs to run differnt types of test when required without manually runnng the script.  
+Example: run the smoke test suite when developer push the code.  
+  
+
+#### Install and configure Jenkins
+Download Jenkins jave package.(cz we are not hosting in anysearver and using it locally)  
+Open the cmd and navigates to the file location.  
+Cmd command: java -jar jenkins.war  
+Jenkins accept mevan commands.
+
+Setup jenkin for maven commands.
+Open http://127.0.0.1:8080/ jenkins
+Manage Jenkins
+Global Tool Configuration
+Set JDK and Maven.
+Give the locations of JDK and Maven in jenkin and save the setup.  
+  
+#### Configuring Jenkin Settings and Workspace  
+Login to Jenkins and click on New Job.  
+Enter the job name and select freestyle project(for local project)  
+Slect advance option under general option.  
+Select "Use custom workspace".  
+Go to C:\Users\Udani\.jenkins location and paste your project.
+Enter $(JENKINS_HOME)/Mavenjava.  
+Then jenkin will identify the peoject when the job runs.  
+  
+Build Triggers>>Build periodically; this can be use for schedule your job.(eg: run at 2am)  
+Under build section, select "Invoke top level maven target option.  
+Selct apache-maven-3.6.3 from th e added dropwon.(This option will display if you configured maven version)  
+Enter "test" for goal. here you can give you simple test cz jenkin know your given maven command. But you need to give mvn test if you run this in your local machine.  
+Save the setup.
+User will navigate back to the dashboard.  
+Click on Build now.  
+Click on the link in link history.  
+Click on the Console Output. This will display the report for your test.
+
+
+
