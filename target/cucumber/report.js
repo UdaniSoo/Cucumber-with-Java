@@ -44,7 +44,7 @@ formatter.match({
   "location": "stepDefinition.user_is_on_netbanking_landing_page()"
 });
 formatter.result({
-  "duration": 114379387,
+  "duration": 106344802,
   "status": "passed"
 });
 formatter.match({
@@ -61,14 +61,14 @@ formatter.match({
   "location": "stepDefinition.user_login_to_the_application_with_and(String,String)"
 });
 formatter.result({
-  "duration": 17652883,
+  "duration": 2960369,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.home_page_is_populated()"
 });
 formatter.result({
-  "duration": 86571,
+  "duration": 73184,
   "status": "passed"
 });
 formatter.match({
@@ -81,11 +81,11 @@ formatter.match({
   "location": "stepDefinition.cards_are_displayed(String)"
 });
 formatter.result({
-  "duration": 174035,
+  "duration": 189207,
   "status": "passed"
 });
 formatter.before({
-  "duration": 172249,
+  "duration": 159309,
   "status": "passed"
 });
 formatter.scenario({
@@ -126,7 +126,7 @@ formatter.match({
   "location": "stepDefinition.user_is_on_netbanking_landing_page()"
 });
 formatter.result({
-  "duration": 186976,
+  "duration": 104421,
   "status": "passed"
 });
 formatter.match({
@@ -143,14 +143,14 @@ formatter.match({
   "location": "stepDefinition.user_login_to_the_application_with_and(String,String)"
 });
 formatter.result({
-  "duration": 192331,
+  "duration": 200809,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.home_page_is_populated()"
 });
 formatter.result({
-  "duration": 47301,
+  "duration": 65597,
   "status": "passed"
 });
 formatter.match({
@@ -163,15 +163,15 @@ formatter.match({
   "location": "stepDefinition.cards_are_displayed(String)"
 });
 formatter.result({
-  "duration": 116469,
+  "duration": 118254,
   "status": "passed"
 });
 formatter.after({
-  "duration": 70060,
+  "duration": 64259,
   "status": "passed"
 });
 formatter.before({
-  "duration": 69168,
+  "duration": 68721,
   "status": "passed"
 });
 formatter.scenario({
@@ -225,25 +225,25 @@ formatter.match({
   "location": "stepDefinition.user_is_on_netbanking_landing_page()"
 });
 formatter.result({
-  "duration": 91479,
+  "duration": 89249,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.user_sign_up_with_following_details(DataTable)"
 });
 formatter.result({
-  "duration": 1995148,
+  "duration": 3402148,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.home_page_is_populated()"
 });
 formatter.result({
-  "duration": 99512,
+  "duration": 65598,
   "status": "passed"
 });
 formatter.after({
-  "duration": 61581,
+  "duration": 46856,
   "status": "passed"
 });
 formatter.uri("Login.feature");
@@ -280,21 +280,21 @@ formatter.match({
   "location": "stepDefinition.validate_the_browser()"
 });
 formatter.result({
-  "duration": 90588,
+  "duration": 93711,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.browser_is_triggered()"
 });
 formatter.result({
-  "duration": 60689,
+  "duration": 82108,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.check_if_the_browser_is_displayed()"
 });
 formatter.result({
-  "duration": 74076,
+  "duration": 60689,
   "status": "passed"
 });
 formatter.scenario({
@@ -335,7 +335,7 @@ formatter.match({
   "location": "stepDefinition.user_is_on_netbanking_landing_page()"
 });
 formatter.result({
-  "duration": 70060,
+  "duration": 55780,
   "status": "passed"
 });
 formatter.match({
@@ -352,14 +352,14 @@ formatter.match({
   "location": "stepDefinition.user_login_to_the_application_with_and(String,String)"
 });
 formatter.result({
-  "duration": 184744,
+  "duration": 167341,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.home_page_is_populated()"
 });
 formatter.result({
-  "duration": 79431,
+  "duration": 69614,
   "status": "passed"
 });
 formatter.match({
@@ -372,7 +372,7 @@ formatter.match({
   "location": "stepDefinition.cards_are_displayed(String)"
 });
 formatter.result({
-  "duration": 124055,
+  "duration": 130749,
   "status": "passed"
 });
 formatter.background({
@@ -401,21 +401,21 @@ formatter.match({
   "location": "stepDefinition.validate_the_browser()"
 });
 formatter.result({
-  "duration": 94157,
+  "duration": 99066,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.browser_is_triggered()"
 });
 formatter.result({
-  "duration": 74523,
+  "duration": 79877,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.check_if_the_browser_is_displayed()"
 });
 formatter.result({
-  "duration": 78092,
+  "duration": 58012,
   "status": "passed"
 });
 formatter.scenario({
@@ -456,7 +456,7 @@ formatter.match({
   "location": "stepDefinition.user_is_on_netbanking_landing_page()"
 });
 formatter.result({
-  "duration": 66490,
+  "duration": 56227,
   "status": "passed"
 });
 formatter.match({
@@ -473,14 +473,14 @@ formatter.match({
   "location": "stepDefinition.user_login_to_the_application_with_and(String,String)"
 });
 formatter.result({
-  "duration": 148152,
+  "duration": 160647,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.home_page_is_populated()"
 });
 formatter.result({
-  "duration": 69167,
+  "duration": 78539,
   "status": "passed"
 });
 formatter.match({
@@ -493,7 +493,7 @@ formatter.match({
   "location": "stepDefinition.cards_are_displayed(String)"
 });
 formatter.result({
-  "duration": 107098,
+  "duration": 96389,
   "status": "passed"
 });
 formatter.background({
@@ -522,21 +522,21 @@ formatter.match({
   "location": "stepDefinition.validate_the_browser()"
 });
 formatter.result({
-  "duration": 94603,
+  "duration": 120485,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.browser_is_triggered()"
 });
 formatter.result({
-  "duration": 64259,
+  "duration": 69168,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.check_if_the_browser_is_displayed()"
 });
 formatter.result({
-  "duration": 64705,
+  "duration": 68722,
   "status": "passed"
 });
 formatter.scenario({
@@ -590,21 +590,21 @@ formatter.match({
   "location": "stepDefinition.user_is_on_netbanking_landing_page()"
 });
 formatter.result({
-  "duration": 67383,
+  "duration": 174927,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.user_sign_up_with_following_details(DataTable)"
 });
 formatter.result({
-  "duration": 145921,
+  "duration": 473463,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.home_page_is_populated()"
 });
 formatter.result({
-  "duration": 110668,
+  "duration": 203487,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -722,21 +722,21 @@ formatter.match({
   "location": "stepDefinition.validate_the_browser()"
 });
 formatter.result({
-  "duration": 195901,
+  "duration": 106206,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.browser_is_triggered()"
 });
 formatter.result({
-  "duration": 166895,
+  "duration": 62473,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.check_if_the_browser_is_displayed()"
 });
 formatter.result({
-  "duration": 68721,
+  "duration": 69168,
   "status": "passed"
 });
 formatter.scenario({
@@ -781,7 +781,7 @@ formatter.match({
   "location": "stepDefinition.user_is_on_netbanking_landing_page()"
 });
 formatter.result({
-  "duration": 63813,
+  "duration": 102636,
   "status": "passed"
 });
 formatter.match({
@@ -798,14 +798,14 @@ formatter.match({
   "location": "stepDefinition.user_login_into_the_application_with_and(String,String)"
 });
 formatter.result({
-  "duration": 179836,
+  "duration": 1108911,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.home_page_is_populated()"
 });
 formatter.result({
-  "duration": 75862,
+  "duration": 157523,
   "status": "passed"
 });
 formatter.match({
@@ -818,7 +818,7 @@ formatter.match({
   "location": "stepDefinition.cards_are_displayed(String)"
 });
 formatter.result({
-  "duration": 118254,
+  "duration": 2742603,
   "status": "passed"
 });
 formatter.background({
@@ -847,21 +847,21 @@ formatter.match({
   "location": "stepDefinition.validate_the_browser()"
 });
 formatter.result({
-  "duration": 107990,
+  "duration": 89695,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.browser_is_triggered()"
 });
 formatter.result({
-  "duration": 63367,
+  "duration": 60242,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.check_if_the_browser_is_displayed()"
 });
 formatter.result({
-  "duration": 53995,
+  "duration": 59350,
   "status": "passed"
 });
 formatter.scenario({
@@ -906,7 +906,7 @@ formatter.match({
   "location": "stepDefinition.user_is_on_netbanking_landing_page()"
 });
 formatter.result({
-  "duration": 61135,
+  "duration": 69613,
   "status": "passed"
 });
 formatter.match({
@@ -923,14 +923,14 @@ formatter.match({
   "location": "stepDefinition.user_login_into_the_application_with_and(String,String)"
 });
 formatter.result({
-  "duration": 174480,
+  "duration": 144582,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.home_page_is_populated()"
 });
 formatter.result({
-  "duration": 86571,
+  "duration": 164663,
   "status": "passed"
 });
 formatter.match({
@@ -943,7 +943,7 @@ formatter.match({
   "location": "stepDefinition.cards_are_displayed(String)"
 });
 formatter.result({
-  "duration": 121378,
+  "duration": 606889,
   "status": "passed"
 });
 formatter.background({
@@ -972,21 +972,21 @@ formatter.match({
   "location": "stepDefinition.validate_the_browser()"
 });
 formatter.result({
-  "duration": 99958,
+  "duration": 92818,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.browser_is_triggered()"
 });
 formatter.result({
-  "duration": 74968,
+  "duration": 59350,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.check_if_the_browser_is_displayed()"
 });
 formatter.result({
-  "duration": 56227,
+  "duration": 56672,
   "status": "passed"
 });
 formatter.scenario({
@@ -1031,7 +1031,7 @@ formatter.match({
   "location": "stepDefinition.user_is_on_netbanking_landing_page()"
 });
 formatter.result({
-  "duration": 64259,
+  "duration": 166448,
   "status": "passed"
 });
 formatter.match({
@@ -1048,14 +1048,14 @@ formatter.match({
   "location": "stepDefinition.user_login_into_the_application_with_and(String,String)"
 });
 formatter.result({
-  "duration": 195454,
+  "duration": 293627,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.home_page_is_populated()"
 });
 formatter.result({
-  "duration": 61136,
+  "duration": 153061,
   "status": "passed"
 });
 formatter.match({
@@ -1068,7 +1068,7 @@ formatter.match({
   "location": "stepDefinition.cards_are_displayed(String)"
 });
 formatter.result({
-  "duration": 112453,
+  "duration": 199024,
   "status": "passed"
 });
 formatter.background({
@@ -1097,21 +1097,21 @@ formatter.match({
   "location": "stepDefinition.validate_the_browser()"
 });
 formatter.result({
-  "duration": 83001,
+  "duration": 81216,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.browser_is_triggered()"
 });
 formatter.result({
-  "duration": 54888,
+  "duration": 47302,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.check_if_the_browser_is_displayed()"
 });
 formatter.result({
-  "duration": 59796,
+  "duration": 45517,
   "status": "passed"
 });
 formatter.scenario({
@@ -1156,7 +1156,7 @@ formatter.match({
   "location": "stepDefinition.user_is_on_netbanking_landing_page()"
 });
 formatter.result({
-  "duration": 70060,
+  "duration": 170911,
   "status": "passed"
 });
 formatter.match({
@@ -1173,14 +1173,14 @@ formatter.match({
   "location": "stepDefinition.user_login_into_the_application_with_and(String,String)"
 });
 formatter.result({
-  "duration": 170464,
+  "duration": 205271,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.home_page_is_populated()"
 });
 formatter.result({
-  "duration": 49979,
+  "duration": 61135,
   "status": "passed"
 });
 formatter.match({
@@ -1193,7 +1193,7 @@ formatter.match({
   "location": "stepDefinition.cards_are_displayed(String)"
 });
 formatter.result({
-  "duration": 103528,
+  "duration": 125394,
   "status": "passed"
 });
 });

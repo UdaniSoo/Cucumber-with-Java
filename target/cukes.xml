@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="10" time="0.140059">
-<testcase classname="Application Login" name="Home page default login" time="0.132293">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="10" time="0.123656">
+<testcase classname="Application Login" name="Home page default login" time="0.109568">
 <system-out><![CDATA[Given User is on netbanking landing page....................................passed
 When User login to the application with "Jin" and "1234"....................passed
 Then Home page is populated.................................................passed
 And Cards are displayed "true"..............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Application Login" name="Home page default login" time="0.000785">
+<testcase classname="Application Login" name="Home page default login" time="0.000713">
 <system-out><![CDATA[Given User is on netbanking landing page....................................passed
 When User login to the application with "Jhone" and "4321"..................passed
 Then Home page is populated.................................................passed
 And Cards are displayed "False".............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Application Login" name="Home page default login" time="0.002317">
+<testcase classname="Application Login" name="Home page default login" time="0.003673">
 <system-out><![CDATA[Given User is on netbanking landing page....................................passed
 When User sign up with following details....................................passed
 Then Home page is populated.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Application Login" name="Home page default login" time="0.000684">
+<testcase classname="Application Login" name="Home page default login" time="0.00066">
 <system-out><![CDATA[Given Validate the browser..................................................passed
 When Browser is triggered...................................................passed
 Then Check if the browser is displayed......................................passed
@@ -30,7 +30,7 @@ Then Home page is populated.................................................pass
 And Cards are displayed "true"..............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Application Login" name="Home page default login" time="0.000638">
+<testcase classname="Application Login" name="Home page default login" time="0.000629">
 <system-out><![CDATA[Given Validate the browser..................................................passed
 When Browser is triggered...................................................passed
 Then Check if the browser is displayed......................................passed
@@ -40,7 +40,7 @@ Then Home page is populated.................................................pass
 And Cards are displayed "False".............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Application Login" name="Home page default login" time="0.000548">
+<testcase classname="Application Login" name="Home page default login" time="0.00111">
 <system-out><![CDATA[Given Validate the browser..................................................passed
 When Browser is triggered...................................................passed
 Then Check if the browser is displayed......................................passed
@@ -49,7 +49,7 @@ When User sign up with following details....................................pass
 Then Home page is populated.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Application Login" name="Home page default login" time="0.000869">
+<testcase classname="Application Login" name="Home page default login" time="0.00435">
 <system-out><![CDATA[Given Validate the browser..................................................passed
 When Browser is triggered...................................................passed
 Then Check if the browser is displayed......................................passed
@@ -59,7 +59,7 @@ Then Home page is populated.................................................pass
 And Cards are displayed "True"..............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Application Login" name="Home page default login 2" time="0.000669">
+<testcase classname="Application Login" name="Home page default login 2" time="0.001195">
 <system-out><![CDATA[Given Validate the browser..................................................passed
 When Browser is triggered...................................................passed
 Then Check if the browser is displayed......................................passed
@@ -69,7 +69,7 @@ Then Home page is populated.................................................pass
 And Cards are displayed "True"..............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Application Login" name="Home page default login 3" time="0.000664">
+<testcase classname="Application Login" name="Home page default login 3" time="0.001021">
 <system-out><![CDATA[Given Validate the browser..................................................passed
 When Browser is triggered...................................................passed
 Then Check if the browser is displayed......................................passed
@@ -79,7 +79,7 @@ Then Home page is populated.................................................pass
 And Cards are displayed "True"..............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Application Login" name="Home page default login 4" time="0.000592">
+<testcase classname="Application Login" name="Home page default login 4" time="0.000737">
 <system-out><![CDATA[Given Validate the browser..................................................passed
 When Browser is triggered...................................................passed
 Then Check if the browser is displayed......................................passed

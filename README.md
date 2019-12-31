@@ -355,7 +355,12 @@ Save the setup.
 User will navigate back to the dashboard.  
 Click on Build now.  
 Click on the link in link history.  
-Click on the Console Output. This will display the report for your test.
+Click on the Console Output. This will display the report for your test.  
+How to run one file if there are multiple files inside the project,
+cmd Command-->mvn -Dtest=TestRunner test  
+  
+#### Scheduling the project from Jenkin job  
+
 
 
 
