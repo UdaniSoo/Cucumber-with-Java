@@ -388,6 +388,9 @@ It's the basic structure of Page object model (POM) where all Web Elements of th
 
 ## What is the Page Factory model?
 
+- Page Factory is an inbuilt Page Object Model concept for Selenium WebDriver but it is very optimized.
+- Additionally, with the help of PageFactory class, we use annotations @FindBy to find WebElement. We use initElements method to initialize web elements
+
 ## Summary
 
 - Page Object Model is an Object Repository design pattern in Selenium WebDriver.
