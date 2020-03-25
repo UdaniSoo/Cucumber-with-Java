@@ -386,4 +386,12 @@ It helps make the code more readable, maintainable, and reusable.
 It's the basic structure of Page object model (POM) where all Web Elements of the AUT and the method that operate on these Web Elements are maintained inside a class file.A task like verification should be separate as part of Test methods.
 
 
+## What is the Page Factory model?
+
+## Summary
+
+- Page Object Model is an Object Repository design pattern in Selenium WebDriver.
+- POM creates our testing code maintainable, reusable.
+- Page Factory is an optimized way to create object repository in POM concept.
+- AjaxElementLocatorFactory is a lazy load concept in Page Factory pattern to identify WebElements only when they are used in any operation.
 
