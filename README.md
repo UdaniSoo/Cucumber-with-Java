@@ -398,3 +398,22 @@ It's the basic structure of Page object model (POM) where all Web Elements of th
 - Page Factory is an optimized way to create object repository in POM concept.
 - AjaxElementLocatorFactory is a lazy load concept in Page Factory pattern to identify WebElements only when they are used in any operation.
 
+
+# Naveen Automation Labs
+
+## Cucumber - jvm (BDD Framework) with Selenium WebDriver - Part 1
+
+BDD - Behaviour Driven Development  
+This means that you are defining the behaviour of the use case. This behaviour can be write in simple english like language called Gherkin language. 
+
+
+## Projet creation
+
+Create a Maven project
+- aparchi quick format
+Add dependencies to the pom.xml
+Download ChromeDriver.exe
+Delete the auto creates packages under srs/main and and srs/test
+Create new package under srs/main called features
+Create a file login.feature under features package
+install natural pulgin from the marketplace.
